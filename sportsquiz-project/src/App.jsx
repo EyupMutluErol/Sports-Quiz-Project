@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HomePage from './components/HomePage'
 import TestPage from './components/TestPage';
+import DifficultyPage from './components/DifficultyPage';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route>
           <Route path="/" element={<HomePage />} />
+          <Route path="/difficulty" element={<DifficultyPage />} />
           <Route path="/test" element={<TestPage />} />
         </Route>
       </Routes>

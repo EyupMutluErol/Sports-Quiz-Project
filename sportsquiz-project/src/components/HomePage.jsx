@@ -11,7 +11,7 @@ function HomePage() {
     const navigate = useNavigate();
 
     const handleNavigate = (sport) =>{
-        navigate('/test',{state:{sport}});
+        navigate('/difficulty',{state:{sport}});
     }
     return (
         <div className="container my-5">
@@ -22,7 +22,7 @@ function HomePage() {
                         <div className="card-body">
                             <h5 className="card-title">Futbol</h5>
                             <p className="card-text">Futbol hakkında soruları cevapla.</p>
-                            <button className="btn btn-primary" onClick={() => handleNavigate('futbol')}>Başla</button>
+                            <button className="btn btn-primary" onClick={() => handleNavigate('football')}>Başla</button>
                         </div>
                     </div>
                 </div>
