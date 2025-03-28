@@ -1,5 +1,7 @@
 import React from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+import '../styles/DifficultyPage.css'
+
 
 function DifficultyPage() {
     const navigate = useNavigate();
@@ -25,10 +27,12 @@ function DifficultyPage() {
       const sportName = sportTranslations[sport]
   return (
     <div>
-      <h1>{sportName} İçin Zorluk Seç</h1>
-      <button onClick={() => handleDifficultySelect("easy")}>Kolay</button>
-      <button onClick={() => handleDifficultySelect("medium")}>Orta</button>
-      <button onClick={() => handleDifficultySelect("hard")}>Zor</button>
+      <h1 className='header'>{sportName} İçin Zorluk Seç</h1>
+      <div className='buttons'>
+        <button className='button' onClick={() => handleDifficultySelect("easy")}>Kolay</button>
+        <button className='button' onClick={() => handleDifficultySelect("medium")}>Orta</button>
+        <button className='button' onClick={() => handleDifficultySelect("hard")}>Zor</button>
+      </div>
     </div>
   )
 }

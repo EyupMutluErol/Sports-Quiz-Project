@@ -1,0 +1,7 @@
+.options{
+    display: flex;
+    flex-direction: row;
+}
+.option{
+    margin-right: 10px;
+}

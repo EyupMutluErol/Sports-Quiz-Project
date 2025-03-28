@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.header{
+    font-family:"Poppins", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    width: 50%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 0.3s;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.button:first-child{
+    background-color: rgb(93, 223, 180);
+}
+.button:nth-child(2){
+    background-color: rgb(194, 194, 23);
+}
+.button:last-child{
+    background-color: rgb(214, 49, 49);
+}
+
+.button:first-child:hover{
+    background-color: rgb(41, 149, 113);
+}
+.button:nth-child(2):hover{
+    background-color: rgb(149, 149, 33);
+}
+.button:last-child:hover{
+    background-color: rgb(160, 23, 23);
+}
