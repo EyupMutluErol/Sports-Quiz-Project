@@ -4,14 +4,64 @@ const questions = {
             question:"En çok ballon'dor kazanan futbolcu kimdir?",
             options:["Ronaldo","Cruyff","Messi","Maradona"],
             answer:"Messi",
-            difficulty:"medium",
+            difficulty:"easy",
         },
         {
             question:"En çok ballon'dor kazanan futbolcu kimdir?",
             options:["Ronaldo","Cruyff","Messi","Maradona"],
             answer:"Messi",
             difficulty:"easy",
-        }
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },     
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        {
+            question:"En çok ballon'dor kazanan futbolcu kimdir?",
+            options:["Ronaldo","Cruyff","Messi","Maradona"],
+            answer:"Messi",
+            difficulty:"easy",
+        },
+        
     ],
     basketball:[
         {
