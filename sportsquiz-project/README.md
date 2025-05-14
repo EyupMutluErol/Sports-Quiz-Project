@@ -14,7 +14,7 @@ React Spor Bilgi Yarışması, kullanıcıların futbol, basketbol, Formula 1 ve
 * **İnteraktif Test Arayüzü:** Kullanıcı dostu seçenek işaretleme ve ilerleme.
 * **Sonuç Ekranı:** Test sonunda doğru/yanlış sayısı ve başarı oranı gösterilir.
 * **Sonraki Zorluğa Geçiş:** Bir zorluk seviyesi tamamlandığında, aynı sporda bir sonraki zorluk seviyesine geçiş imkanı.
-* **Responsive Tasarım:** Farklı ekran boyutlarına uyum sağlar (Bootstrap kullanıldıysa).
+* **Responsive Tasarım:** Farklı ekran boyutlarına uyum sağlar 
 * **React Router:** Sayfalar arası geçiş ve navigasyon yönetimi.
 
 
@@ -25,7 +25,7 @@ React Spor Bilgi Yarışması, kullanıcıların futbol, basketbol, Formula 1 ve
 * **JavaScript (ES6+):** Uygulamanın temel programlama dili.
 * **HTML5 & CSS3:** Yapı ve stil için.
 * **Bootstrap (Kullanıldıysa):** Hızlı ve duyarlı tasarım için CSS framework'ü.
-    * *(Eğer başka kütüphane veya araç kullandıysanız buraya ekleyin, örneğin: Zustand, Redux, Axios vb.)*
+
 
 ## Kurulum ve Çalıştırma
 
@@ -33,8 +33,8 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
-    cd PROJE_ADINIZ
+    git clone [https://github.com/EyupMutluErol/Sports-Quiz-Project]
+    cd Sports-Quiz-Project
     ```
 
 2.  **Gerekli Paketleri Yükleyin:**
@@ -42,13 +42,13 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
     ```bash
     npm install
     ```
-    *(Eğer yarn kullanıyorsanız: `yarn install`)*
+    
 
 3.  **Uygulamayı Başlatın:**
     ```bash
     npm start
     ```
-    *(Eğer yarn kullanıyorsanız: `yarn start`)*
+    
 
     Bu komut, uygulamayı geliştirme modunda başlatır. Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı görüntüleyebilirsiniz.
 
