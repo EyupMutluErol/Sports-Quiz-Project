@@ -17,6 +17,10 @@ function DifficultyPage() {
         navigate('/test',{ state: { sport, difficulty } })
     }
 
+    const handleGoHome = () => {
+    navigate('/');
+  }
+
     const sportTranslations = {
         football: "Futbol",
         basketball: "Basketbol",
@@ -33,6 +37,12 @@ function DifficultyPage() {
         <button className='button' onClick={() => handleDifficultySelect("medium")}>Orta</button>
         <button className='button' onClick={() => handleDifficultySelect("hard")}>Zor</button>
       </div>
+      <div className='toMainPageButton'>
+        <button className="btn btn-secondary" onClick={handleGoHome}>
+              Ana Sayfaya Dön
+        </button>
+      </div>
+      
     </div>
   )
 }

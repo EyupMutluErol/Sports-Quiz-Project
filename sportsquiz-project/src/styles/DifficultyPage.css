@@ -41,3 +41,11 @@
 .button:last-child:hover{
     background-color: rgb(160, 23, 23);
 }
+.toMainPageButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.toMainPageButton .btn{
+    width: 200px;
+}

@@ -1,12 +1,70 @@
-# React + Vite
+# React Spor Bilgi Yarışması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, React kullanılarak geliştirilmiş interaktif bir spor bilgi yarışması uygulamasıdır. Kullanıcılar farklı spor dallarında ve zorluk seviyelerinde bilgilerini test edebilirler.
 
-Currently, two official plugins are available:
+## Açıklama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Spor Bilgi Yarışması, kullanıcıların futbol, basketbol, Formula 1 ve tenis gibi popüler spor dallarında genel kültürlerini ölçmelerini sağlayan eğlenceli bir web uygulamasıdır. Kullanıcılar bir spor dalı seçtikten sonra, kolay, orta veya zor seviyelerinden birini tercih ederek 10 soruluk bir teste tabi tutulurlar. Test sonunda doğru cevap sayılarını görebilir ve eğer mevcutsa bir sonraki zorluk seviyesine geçebilirler.
 
-## Expanding the ESLint configuration
+## Özellikler
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Spor Dalı Seçimi:** Futbol, Basketbol, Formula 1, Tenis.
+* **Zorluk Seviyesi Seçimi:** Kolay, Orta, Zor.
+* **Dinamik Soru Yükleme:** Seçilen spor ve zorluğa göre sorular data dosyasından çekilir.
+* **İnteraktif Test Arayüzü:** Kullanıcı dostu seçenek işaretleme ve ilerleme.
+* **Sonuç Ekranı:** Test sonunda doğru/yanlış sayısı ve başarı oranı gösterilir.
+* **Sonraki Zorluğa Geçiş:** Bir zorluk seviyesi tamamlandığında, aynı sporda bir sonraki zorluk seviyesine geçiş imkanı.
+* **Responsive Tasarım:** Farklı ekran boyutlarına uyum sağlar (Bootstrap kullanıldıysa).
+* **React Router:** Sayfalar arası geçiş ve navigasyon yönetimi.
+
+
+## Kullanılan Teknolojiler
+
+* **React:** Kullanıcı arayüzü geliştirmek için JavaScript kütüphanesi.
+* **React Router DOM:** Uygulama içi navigasyon ve sayfa yönlendirmeleri için.
+* **JavaScript (ES6+):** Uygulamanın temel programlama dili.
+* **HTML5 & CSS3:** Yapı ve stil için.
+* **Bootstrap (Kullanıldıysa):** Hızlı ve duyarlı tasarım için CSS framework'ü.
+    * *(Eğer başka kütüphane veya araç kullandıysanız buraya ekleyin, örneğin: Zustand, Redux, Axios vb.)*
+
+## Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
+
+1.  **Projeyi Klonlayın:**
+    ```bash
+    git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
+    cd PROJE_ADINIZ
+    ```
+
+2.  **Gerekli Paketleri Yükleyin:**
+    Proje kök dizinindeyken aşağıdaki komutu çalıştırın:
+    ```bash
+    npm install
+    ```
+    *(Eğer yarn kullanıyorsanız: `yarn install`)*
+
+3.  **Uygulamayı Başlatın:**
+    ```bash
+    npm start
+    ```
+    *(Eğer yarn kullanıyorsanız: `yarn start`)*
+
+    Bu komut, uygulamayı geliştirme modunda başlatır. Tarayıcınızda `http://localhost:3000` adresini açarak uygulamayı görüntüleyebilirsiniz.
+
+## Nasıl Oynanır?
+
+1.  Ana sayfadan ilgilendiğiniz bir spor dalını (Futbol, Basketbol, F1, Tenis) seçin.
+2.  Açılan sayfadan test etmek istediğiniz zorluk seviyesini (Kolay, Orta, Zor) seçin.
+3.  Karşınıza çıkan 10 soruyu cevaplayın. Her soru için size sunulan seçeneklerden doğru olduğunu düşündüğünüzü işaretleyin.
+4.  Tüm soruları cevapladıktan sonra "Testi Bitir" butonuna tıklayın.
+5.  Sonuç ekranında doğru cevap sayınızı görebilirsiniz.
+6.  Eğer mevcutsa, "Sonraki Zorluğa Geç" butonu ile aynı spor dalının bir üst zorluk seviyesine geçiş yapabilirsiniz.
+
+
+
+## İletişim 
+
+* **Ad Soyad:** Eyüp Mutlu Erol
+* **GitHub:** [https://github.com/EyupMutluErol]
+* **E-posta:** [eyupmutluerol@gmail.com]
