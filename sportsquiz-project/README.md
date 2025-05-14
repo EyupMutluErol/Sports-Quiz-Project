@@ -24,7 +24,7 @@ React Spor Bilgi Yarışması, kullanıcıların futbol, basketbol, Formula 1 ve
 * **React Router DOM:** Uygulama içi navigasyon ve sayfa yönlendirmeleri için.
 * **JavaScript (ES6+):** Uygulamanın temel programlama dili.
 * **HTML5 & CSS3:** Yapı ve stil için.
-* **Bootstrap (Kullanıldıysa):** Hızlı ve duyarlı tasarım için CSS framework'ü.
+* **Bootstrap:** Hızlı ve duyarlı tasarım için CSS framework'ü.
 
 
 ## Kurulum ve Çalıştırma
