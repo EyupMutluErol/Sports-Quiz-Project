@@ -6,21 +6,25 @@ import './App.css'
 import HomePage from './components/HomePage'
 import TestPage from './components/TestPage';
 import DifficultyPage from './components/DifficultyPage';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
- 
+
 
   return (
-    <Router>
-      <Routes>
-        <Route>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/difficulty" element={<DifficultyPage />} />
-          <Route path="/test" element={<TestPage />} />
-        </Route>
-      </Routes>
-    </Router>
+    <div>
+      <Router>
+        <Routes>
+          <Route>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/difficulty" element={<DifficultyPage />} />
+            <Route path="/test" element={<TestPage />} />
+          </Route>
+        </Routes>
+      </Router>
+      <ToastContainer />
+    </div>
   )
 }
 

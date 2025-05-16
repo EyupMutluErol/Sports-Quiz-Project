@@ -7,7 +7,7 @@ function DifficultyPage() {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const sport = location.state.sport;
+    const sport = location.state.sport; // içinde spor isimlerinden biri var
 
     if (!sport) {
         return <p>Hata: Spor dalı seçilmedi!</p>;
